@@ -42,3 +42,69 @@ header h1 {
     justify-content: space-between;
     margin-bottom: 5px;
 }
+
+.number-button {
+    width: calc(25% - 5px);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #5b5f61;
+    color: #fff;
+}
+
+.operator-button {
+    width: calc(25% - 5px);
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #a8aaac;
+    color: #059201;
+}
+
+.clear-button {
+    width: calc(25% - 5px);
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #a8aaac;
+    color: #bb2409;
+}
+
+.equal-button {
+    width: calc(25% - 5px);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #059201;
+    color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 31px 0;
+    background-color: #6b6c6d;
+    color: #fdfdfd;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer a {
+    color: #323233;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
