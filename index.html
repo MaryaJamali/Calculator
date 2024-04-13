@@ -18,28 +18,29 @@
             <input type="text" name="input"><br><br>
             <div class="buttons">
                 <div class="row">
-                    <input type="button" class="number-button" value="1">
-                    <input type="button" class="number-button" value="2">
-                    <input type="button" class="number-button" value="3">
-                    <input type="button" class="operator-button" value="+">
+                    <input type="button" class="number-button" value="1" onclick="calculator.input.value+='1'">
+                    <input type="button" class="number-button" value="2" onclick="calculator.input.value+='2'">
+                    <input type="button" class="number-button" value="3" onclick="calculator.input.value+='3'">
+                    <input type="button" class="operator-button" value="+" onclick="calculator.input.value+='+'">
                 </div>
                 <div class="row">
-                    <input type="button" class="number-button" value="4">
-                    <input type="button" class="number-button" value="5">
-                    <input type="button" class="number-button" value="6">
-                    <input type="button" class="operator-button" value="-">
+                    <input type="button" class="number-button" value="4" onclick="calculator.input.value+='4'">
+                    <input type="button" class="number-button" value="5" onclick="calculator.input.value+='5'">
+                    <input type="button" class="number-button" value="6" onclick="calculator.input.value+='6'">
+                    <input type="button" class="operator-button" value="-" onclick="calculator.input.value+='-'">
                 </div>
                 <div class="row">
-                    <input type="button" class="number-button" value="7">
-                    <input type="button" class="number-button" value="8">
-                    <input type="button" class="number-button" value="9">
-                    <input type="button" class="operator-button" value="*">
+                    <input type="button" class="number-button" value="7" onclick="calculator.input.value+='7'">
+                    <input type="button" class="number-button" value="8" onclick="calculator.input.value+='8'">
+                    <input type="button" class="number-button" value="9" onclick="calculator.input.value+='9'">
+                    <input type="button" class="operator-button" value="*" onclick="calculator.input.value+='*'">
                 </div>
                 <div class="row">
-                    <input type="button" class="clear-button" value="c">
-                    <input type="button" class="number-button" value="0">
-                    <input type="button" class="equal-button" value="=">
-                    <input type="button" class="operator-button" value="/">
+                    <input type="button" class="clear-button" value="c" onclick="calculator.input.value =''">
+                    <input type="button" class="number-button" value="0" onclick="calculator.input.value+='0'">
+                    <input type="button" class="equal-button" value="="
+                        onclick="calculator.input.value =eval(calculator.input.value)">
+                    <input type="button" class="operator-button" value="/" onclick="calculator.input.value+='/'">
                 </div>
             </div>
         </form>
